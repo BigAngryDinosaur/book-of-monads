@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: e576fc258c7a770970ddcd423a8cbcc75e1d611e01aa1d818e86e55833912a81
+-- hash: fcd213eeebce75ff8620d8de63d3802642685e1f30bb60457633f8352988d609
 
 name:           book-of-monads
 version:        0.1.0.0
@@ -27,9 +27,11 @@ source-repository head
 
 library
   exposed-modules:
+      Applicative
       BinaryTree
       Container
       Eq
+      List
   other-modules:
       Paths_book_of_monads
   hs-source-dirs:
